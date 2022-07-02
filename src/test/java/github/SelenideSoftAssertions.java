@@ -16,7 +16,5 @@ public class SelenideSoftAssertions {
         $(byTagAndText("button", "Show 2 more pages…")).click();
         $(byTagAndText("a", "Soft assertions")).click();
         $("[id=user-content-3-using-junit5-extend-test-class]").shouldBe(visible);
-
-        sleep(5000);
     }
 }
